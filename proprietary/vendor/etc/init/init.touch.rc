@@ -1,0 +1,5 @@
+# TOUCH KO
+
+on init
+    exec_background u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d \
+        /vendor/lib/modules tui-common.ko omnivision_tcm.ko jd9365tg_i2c.ko jd9365tn_i2c.ko
