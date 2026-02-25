@@ -9,6 +9,49 @@ LOCAL_DIR := vendor/bluefox/nx1
 # VINTF compatibility matrix
 DEVICE_MATRIX_FILE += vendor/bluefox/nx1/proprietary/vendor/etc/vintf/compatibility_matrix.xml
 
+# VINTF manifest fragments (vendor/etc/vintf/manifest/)
+DEVICE_MANIFEST_FILE += \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/CommandService.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/android.hardware.audio.effect.service-aidl.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/android.hardware.audio.service-aidl.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/android.hardware.bluetooth-service-mediatek.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/android.hardware.boot-service.mtk.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/android.hardware.gatekeeper-service.trustkernel.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/android.hardware.health-service.example.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/android.hardware.ir-service.example.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint@3.0-service.trustkernel.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.trustkernel.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.trustkernel.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/android.hardware.sensors-multihal.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/android.hardware.tetheroffload-V1-service.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/android.hardware.usb-aidl-service.mediatek.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/android.hardware.usb.gadget-aidl-service.mediatek.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi-service.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/bluetooth_audio.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/gnss-default.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/gnss-mtk.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/lights-mtk-default.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/manifest_allocator.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/manifest_hwcomposer.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/manifest_media_c2_default.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/mapper.mediatek.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/memtrack-mediatek.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/mtk_lbs_service.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/mtkpower_applist-mtk-default.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/power-mediatek.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/thermal-mediatek.xml \
+    vendor/bluefox/nx1/proprietary/vendor/etc/vintf/manifest/vibrator-mtk-default.xml
+
+# ODM-on-vendor VINTF manifests (SIM configuration variants)
+ODM_MANIFEST_FILES += \
+    vendor/bluefox/nx1/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml \
+    vendor/bluefox/nx1/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml \
+    vendor/bluefox/nx1/proprietary/vendor/odm/etc/vintf/manifest_ss.xml \
+    vendor/bluefox/nx1/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml
+
 # Vendor DLKM kernel modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := \
     fhctl.ko \

@@ -962,39 +962,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/etc/usb_audio_accessory_only_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_accessory_only_policy_configuration.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/CommandService.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/CommandService.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.audio.effect.service-aidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.audio.effect.service-aidl.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.audio.service-aidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.audio.service-aidl.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.bluetooth-service-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.bluetooth-service-mediatek.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.boot-service.mtk.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.boot-service.mtk.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.gatekeeper-service.trustkernel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gatekeeper-service.trustkernel.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.health-service.example.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.health-service.example.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.ir-service.example.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.ir-service.example.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint@3.0-service.trustkernel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.security.keymint@3.0-service.trustkernel.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.trustkernel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.security.secureclock-service.trustkernel.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.trustkernel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.security.sharedsecret-service.trustkernel.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.sensors-multihal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.sensors-multihal.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.tetheroffload-V1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.tetheroffload-V1-service.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.usb-aidl-service.mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.usb-aidl-service.mediatek.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.usb.gadget-aidl-service.mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.usb.gadget-aidl-service.mediatek.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi-service.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.supplicant.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/bluetooth_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/bluetooth_audio.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/gnss-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/gnss-default.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/gnss-mtk.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/gnss-mtk.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/lights-mtk-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/lights-mtk-default.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/manifest_allocator.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_allocator.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/manifest_hwcomposer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_hwcomposer.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/manifest_media_c2_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_media_c2_default.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/mapper.mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/mapper.mediatek.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/memtrack-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/memtrack-mediatek.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/mtk_lbs_service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/mtk_lbs_service.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/mtkpower_applist-mtk-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/mtkpower_applist-mtk-default.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/power-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/power-mediatek.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/thermal-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/thermal-mediatek.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/vibrator-mtk-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vibrator-mtk-default.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
@@ -2249,10 +2216,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/odm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR)/odm/etc/build.prop \
     $(LOCAL_DIR)/proprietary/vendor/odm/etc/group:$(TARGET_COPY_OUT_VENDOR)/odm/etc/group \
     $(LOCAL_DIR)/proprietary/vendor/odm/etc/passwd:$(TARGET_COPY_OUT_VENDOR)/odm/etc/passwd \
-    $(LOCAL_DIR)/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_dsds.xml \
-    $(LOCAL_DIR)/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_qsqs.xml \
-    $(LOCAL_DIR)/proprietary/vendor/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_ss.xml \
-    $(LOCAL_DIR)/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_tsts.xml \
     $(LOCAL_DIR)/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
     $(LOCAL_DIR)/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
     $(LOCAL_DIR)/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
