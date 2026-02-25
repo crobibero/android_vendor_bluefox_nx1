@@ -27,8 +27,6 @@ PRODUCT_PACKAGES += \
     WifiResOverlay
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_DIR)/proprietary/vendor/apex/com.android.hardware.cas.apex:$(TARGET_COPY_OUT_VENDOR)/apex/com.android.hardware.cas.apex \
-    $(LOCAL_DIR)/proprietary/vendor/apex/com.google.android.widevine.nonupdatable.apex:$(TARGET_COPY_OUT_VENDOR)/apex/com.google.android.widevine.nonupdatable.apex \
     $(LOCAL_DIR)/proprietary/vendor/app/t6/02662e8e-e126-11e5-b86d9a79f06e9478.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/02662e8e-e126-11e5-b86d9a79f06e9478.ta \
     $(LOCAL_DIR)/proprietary/vendor/app/t6/9ef77781-7bd5-4e39-965f20f6f211f400.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/9ef77781-7bd5-4e39-965f20f6f211f400.ta \
     $(LOCAL_DIR)/proprietary/vendor/app/t6/b46325e6-5c90-8252-2eada8e32e5180d6.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/b46325e6-5c90-8252-2eada8e32e5180d6.ta \
