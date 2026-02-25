@@ -9,14 +9,26 @@ $(call inherit-product, vendor/bluefox/nx1/BoardConfigVendor.mk)
 
 LOCAL_DIR := vendor/bluefox/nx1
 
+# Prebuilt APKs (vendor/app and vendor/overlay)
+PRODUCT_PACKAGES += \
+    NetworkStackGoogleGoResOverlay \
+    NetworkStackGoogleResOverlay \
+    NetworkStackResOverlay \
+    TetheringGoogleResOverlay \
+    TetheringResOverlay \
+    CellbroadcastGoogleUIResOverlay \
+    FrameworkResOverlay \
+    FrameworkResOverlayExt \
+    MtkSettingsResOverlay \
+    MtkTelephonyServiceResOverlay \
+    SettingsProviderResOverlay \
+    SystemUIResOverlay \
+    WifiResMainlineOverlay \
+    WifiResOverlay
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/apex/com.android.hardware.cas.apex:$(TARGET_COPY_OUT_VENDOR)/apex/com.android.hardware.cas.apex \
     $(LOCAL_DIR)/proprietary/vendor/apex/com.google.android.widevine.nonupdatable.apex:$(TARGET_COPY_OUT_VENDOR)/apex/com.google.android.widevine.nonupdatable.apex \
-    $(LOCAL_DIR)/proprietary/vendor/app/NetworkStackGoogleGoResOverlay/NetworkStackGoogleGoResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/NetworkStackGoogleGoResOverlay/NetworkStackGoogleGoResOverlay.apk \
-    $(LOCAL_DIR)/proprietary/vendor/app/NetworkStackGoogleResOverlay/NetworkStackGoogleResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/NetworkStackGoogleResOverlay/NetworkStackGoogleResOverlay.apk \
-    $(LOCAL_DIR)/proprietary/vendor/app/NetworkStackResOverlay/NetworkStackResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/NetworkStackResOverlay/NetworkStackResOverlay.apk \
-    $(LOCAL_DIR)/proprietary/vendor/app/TetheringGoogleResOverlay/TetheringGoogleResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/TetheringGoogleResOverlay/TetheringGoogleResOverlay.apk \
-    $(LOCAL_DIR)/proprietary/vendor/app/TetheringResOverlay/TetheringResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/TetheringResOverlay/TetheringResOverlay.apk \
     $(LOCAL_DIR)/proprietary/vendor/app/t6/02662e8e-e126-11e5-b86d9a79f06e9478.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/02662e8e-e126-11e5-b86d9a79f06e9478.ta \
     $(LOCAL_DIR)/proprietary/vendor/app/t6/9ef77781-7bd5-4e39-965f20f6f211f400.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/9ef77781-7bd5-4e39-965f20f6f211f400.ta \
     $(LOCAL_DIR)/proprietary/vendor/app/t6/b46325e6-5c90-8252-2eada8e32e5180d6.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/b46325e6-5c90-8252-2eada8e32e5180d6.ta \
@@ -2242,15 +2254,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_qsqs.xml \
     $(LOCAL_DIR)/proprietary/vendor/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_ss.xml \
     $(LOCAL_DIR)/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_tsts.xml \
-    $(LOCAL_DIR)/proprietary/vendor/overlay/CellbroadcastGoogleUIResOverlay/CellbroadcastGoogleUIResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/CellbroadcastGoogleUIResOverlay/CellbroadcastGoogleUIResOverlay.apk \
-    $(LOCAL_DIR)/proprietary/vendor/overlay/FrameworkResOverlay/FrameworkResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/FrameworkResOverlay/FrameworkResOverlay.apk \
-    $(LOCAL_DIR)/proprietary/vendor/overlay/FrameworkResOverlayExt/FrameworkResOverlayExt.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/FrameworkResOverlayExt/FrameworkResOverlayExt.apk \
-    $(LOCAL_DIR)/proprietary/vendor/overlay/MtkSettingsResOverlay/MtkSettingsResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/MtkSettingsResOverlay/MtkSettingsResOverlay.apk \
-    $(LOCAL_DIR)/proprietary/vendor/overlay/MtkTelephonyServiceResOverlay/MtkTelephonyServiceResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/MtkTelephonyServiceResOverlay/MtkTelephonyServiceResOverlay.apk \
-    $(LOCAL_DIR)/proprietary/vendor/overlay/SettingsProviderResOverlay/SettingsProviderResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/SettingsProviderResOverlay/SettingsProviderResOverlay.apk \
-    $(LOCAL_DIR)/proprietary/vendor/overlay/SystemUIResOverlay/SystemUIResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/SystemUIResOverlay/SystemUIResOverlay.apk \
-    $(LOCAL_DIR)/proprietary/vendor/overlay/WifiResMainlineOverlay/WifiResMainlineOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/WifiResMainlineOverlay/WifiResMainlineOverlay.apk \
-    $(LOCAL_DIR)/proprietary/vendor/overlay/WifiResOverlay/WifiResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/WifiResOverlay/WifiResOverlay.apk \
     $(LOCAL_DIR)/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
     $(LOCAL_DIR)/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
     $(LOCAL_DIR)/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
