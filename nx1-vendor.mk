@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/app/t6/data/E62563B4905C52822EADA8E32E5180D6/6B6579626F785F6372797074:$(TARGET_COPY_OUT_VENDOR)/app/t6/data/E62563B4905C52822EADA8E32E5180D6/6B6579626F785F6372797074 \
     $(LOCAL_DIR)/proprietary/vendor/app/t6/ffffffff-126c-d6ab-5a1dfa772a732a75.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/ffffffff-126c-d6ab-5a1dfa772a732a75.ta \
     $(LOCAL_DIR)/proprietary/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
-    $(LOCAL_DIR)/proprietary/vendor/bin/acpi:$(TARGET_COPY_OUT_VENDOR)/bin/acpi \
     $(LOCAL_DIR)/proprietary/vendor/bin/aee_aedv:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv \
     $(LOCAL_DIR)/proprietary/vendor/bin/aee_aedv64:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv64 \
     $(LOCAL_DIR)/proprietary/vendor/bin/aee_dumpstatev:$(TARGET_COPY_OUT_VENDOR)/bin/aee_dumpstatev \
@@ -42,89 +41,28 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
     $(LOCAL_DIR)/proprietary/vendor/bin/audiocmdservice_atci:$(TARGET_COPY_OUT_VENDOR)/bin/audiocmdservice_atci \
     $(LOCAL_DIR)/proprietary/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
-    $(LOCAL_DIR)/proprietary/vendor/bin/awk:$(TARGET_COPY_OUT_VENDOR)/bin/awk \
-    $(LOCAL_DIR)/proprietary/vendor/bin/base64:$(TARGET_COPY_OUT_VENDOR)/bin/base64 \
-    $(LOCAL_DIR)/proprietary/vendor/bin/basename:$(TARGET_COPY_OUT_VENDOR)/bin/basename \
     $(LOCAL_DIR)/proprietary/vendor/bin/bip:$(TARGET_COPY_OUT_VENDOR)/bin/bip \
-    $(LOCAL_DIR)/proprietary/vendor/bin/blockdev:$(TARGET_COPY_OUT_VENDOR)/bin/blockdev \
-    $(LOCAL_DIR)/proprietary/vendor/bin/boringssl_self_test32:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test32 \
-    $(LOCAL_DIR)/proprietary/vendor/bin/boringssl_self_test64:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test64 \
-    $(LOCAL_DIR)/proprietary/vendor/bin/brctl:$(TARGET_COPY_OUT_VENDOR)/bin/brctl \
-    $(LOCAL_DIR)/proprietary/vendor/bin/cal:$(TARGET_COPY_OUT_VENDOR)/bin/cal \
-    $(LOCAL_DIR)/proprietary/vendor/bin/cat:$(TARGET_COPY_OUT_VENDOR)/bin/cat \
     $(LOCAL_DIR)/proprietary/vendor/bin/ccci_mdinit:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_mdinit \
     $(LOCAL_DIR)/proprietary/vendor/bin/ccci_rpcd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_rpcd \
     $(LOCAL_DIR)/proprietary/vendor/bin/charon:$(TARGET_COPY_OUT_VENDOR)/bin/charon \
-    $(LOCAL_DIR)/proprietary/vendor/bin/chattr:$(TARGET_COPY_OUT_VENDOR)/bin/chattr \
-    $(LOCAL_DIR)/proprietary/vendor/bin/chcon:$(TARGET_COPY_OUT_VENDOR)/bin/chcon \
-    $(LOCAL_DIR)/proprietary/vendor/bin/chgrp:$(TARGET_COPY_OUT_VENDOR)/bin/chgrp \
     $(LOCAL_DIR)/proprietary/vendor/bin/chipinfo:$(TARGET_COPY_OUT_VENDOR)/bin/chipinfo \
-    $(LOCAL_DIR)/proprietary/vendor/bin/chmod:$(TARGET_COPY_OUT_VENDOR)/bin/chmod \
-    $(LOCAL_DIR)/proprietary/vendor/bin/chown:$(TARGET_COPY_OUT_VENDOR)/bin/chown \
-    $(LOCAL_DIR)/proprietary/vendor/bin/chroot:$(TARGET_COPY_OUT_VENDOR)/bin/chroot \
-    $(LOCAL_DIR)/proprietary/vendor/bin/chrt:$(TARGET_COPY_OUT_VENDOR)/bin/chrt \
-    $(LOCAL_DIR)/proprietary/vendor/bin/cksum:$(TARGET_COPY_OUT_VENDOR)/bin/cksum \
-    $(LOCAL_DIR)/proprietary/vendor/bin/clear:$(TARGET_COPY_OUT_VENDOR)/bin/clear \
-    $(LOCAL_DIR)/proprietary/vendor/bin/cmp:$(TARGET_COPY_OUT_VENDOR)/bin/cmp \
-    $(LOCAL_DIR)/proprietary/vendor/bin/comm:$(TARGET_COPY_OUT_VENDOR)/bin/comm \
-    $(LOCAL_DIR)/proprietary/vendor/bin/cp:$(TARGET_COPY_OUT_VENDOR)/bin/cp \
-    $(LOCAL_DIR)/proprietary/vendor/bin/cpio:$(TARGET_COPY_OUT_VENDOR)/bin/cpio \
-    $(LOCAL_DIR)/proprietary/vendor/bin/cut:$(TARGET_COPY_OUT_VENDOR)/bin/cut \
-    $(LOCAL_DIR)/proprietary/vendor/bin/date:$(TARGET_COPY_OUT_VENDOR)/bin/date \
     $(LOCAL_DIR)/proprietary/vendor/bin/dconfig:$(TARGET_COPY_OUT_VENDOR)/bin/dconfig \
-    $(LOCAL_DIR)/proprietary/vendor/bin/dd:$(TARGET_COPY_OUT_VENDOR)/bin/dd \
-    $(LOCAL_DIR)/proprietary/vendor/bin/devmem:$(TARGET_COPY_OUT_VENDOR)/bin/devmem \
     $(LOCAL_DIR)/proprietary/vendor/bin/dexecutor:$(TARGET_COPY_OUT_VENDOR)/bin/dexecutor \
-    $(LOCAL_DIR)/proprietary/vendor/bin/df:$(TARGET_COPY_OUT_VENDOR)/bin/df \
-    $(LOCAL_DIR)/proprietary/vendor/bin/diff:$(TARGET_COPY_OUT_VENDOR)/bin/diff \
-    $(LOCAL_DIR)/proprietary/vendor/bin/dirname:$(TARGET_COPY_OUT_VENDOR)/bin/dirname \
-    $(LOCAL_DIR)/proprietary/vendor/bin/dmabuf_dump:$(TARGET_COPY_OUT_VENDOR)/bin/dmabuf_dump \
     $(LOCAL_DIR)/proprietary/vendor/bin/dmc_core:$(TARGET_COPY_OUT_VENDOR)/bin/dmc_core \
-    $(LOCAL_DIR)/proprietary/vendor/bin/dmesg:$(TARGET_COPY_OUT_VENDOR)/bin/dmesg \
     $(LOCAL_DIR)/proprietary/vendor/bin/doeapp-memtester:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-memtester \
     $(LOCAL_DIR)/proprietary/vendor/bin/doeapp-sat:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-sat \
-    $(LOCAL_DIR)/proprietary/vendor/bin/dos2unix:$(TARGET_COPY_OUT_VENDOR)/bin/dos2unix \
     $(LOCAL_DIR)/proprietary/vendor/bin/dreport:$(TARGET_COPY_OUT_VENDOR)/bin/dreport \
     $(LOCAL_DIR)/proprietary/vendor/bin/dtc_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/dtc_vendor \
-    $(LOCAL_DIR)/proprietary/vendor/bin/du:$(TARGET_COPY_OUT_VENDOR)/bin/du \
-    $(LOCAL_DIR)/proprietary/vendor/bin/dumpsys:$(TARGET_COPY_OUT_VENDOR)/bin/dumpsys \
-    $(LOCAL_DIR)/proprietary/vendor/bin/echo:$(TARGET_COPY_OUT_VENDOR)/bin/echo \
-    $(LOCAL_DIR)/proprietary/vendor/bin/egrep:$(TARGET_COPY_OUT_VENDOR)/bin/egrep \
-    $(LOCAL_DIR)/proprietary/vendor/bin/env:$(TARGET_COPY_OUT_VENDOR)/bin/env \
     $(LOCAL_DIR)/proprietary/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
-    $(LOCAL_DIR)/proprietary/vendor/bin/expand:$(TARGET_COPY_OUT_VENDOR)/bin/expand \
-    $(LOCAL_DIR)/proprietary/vendor/bin/expr:$(TARGET_COPY_OUT_VENDOR)/bin/expr \
     $(LOCAL_DIR)/proprietary/vendor/bin/factory:$(TARGET_COPY_OUT_VENDOR)/bin/factory \
-    $(LOCAL_DIR)/proprietary/vendor/bin/fallocate:$(TARGET_COPY_OUT_VENDOR)/bin/fallocate \
-    $(LOCAL_DIR)/proprietary/vendor/bin/false:$(TARGET_COPY_OUT_VENDOR)/bin/false \
-    $(LOCAL_DIR)/proprietary/vendor/bin/fgrep:$(TARGET_COPY_OUT_VENDOR)/bin/fgrep \
-    $(LOCAL_DIR)/proprietary/vendor/bin/file:$(TARGET_COPY_OUT_VENDOR)/bin/file \
-    $(LOCAL_DIR)/proprietary/vendor/bin/find:$(TARGET_COPY_OUT_VENDOR)/bin/find \
-    $(LOCAL_DIR)/proprietary/vendor/bin/flock:$(TARGET_COPY_OUT_VENDOR)/bin/flock \
-    $(LOCAL_DIR)/proprietary/vendor/bin/fmt:$(TARGET_COPY_OUT_VENDOR)/bin/fmt \
-    $(LOCAL_DIR)/proprietary/vendor/bin/free:$(TARGET_COPY_OUT_VENDOR)/bin/free \
-    $(LOCAL_DIR)/proprietary/vendor/bin/fsync:$(TARGET_COPY_OUT_VENDOR)/bin/fsync \
     $(LOCAL_DIR)/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     $(LOCAL_DIR)/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
-    $(LOCAL_DIR)/proprietary/vendor/bin/getconf:$(TARGET_COPY_OUT_VENDOR)/bin/getconf \
-    $(LOCAL_DIR)/proprietary/vendor/bin/getenforce:$(TARGET_COPY_OUT_VENDOR)/bin/getenforce \
-    $(LOCAL_DIR)/proprietary/vendor/bin/getevent:$(TARGET_COPY_OUT_VENDOR)/bin/getevent \
-    $(LOCAL_DIR)/proprietary/vendor/bin/getfattr:$(TARGET_COPY_OUT_VENDOR)/bin/getfattr \
-    $(LOCAL_DIR)/proprietary/vendor/bin/getopt:$(TARGET_COPY_OUT_VENDOR)/bin/getopt \
-    $(LOCAL_DIR)/proprietary/vendor/bin/getprop:$(TARGET_COPY_OUT_VENDOR)/bin/getprop \
     $(LOCAL_DIR)/proprietary/vendor/bin/gpiodetect:$(TARGET_COPY_OUT_VENDOR)/bin/gpiodetect \
     $(LOCAL_DIR)/proprietary/vendor/bin/gpiofind:$(TARGET_COPY_OUT_VENDOR)/bin/gpiofind \
     $(LOCAL_DIR)/proprietary/vendor/bin/gpioget:$(TARGET_COPY_OUT_VENDOR)/bin/gpioget \
     $(LOCAL_DIR)/proprietary/vendor/bin/gpioinfo:$(TARGET_COPY_OUT_VENDOR)/bin/gpioinfo \
     $(LOCAL_DIR)/proprietary/vendor/bin/gpioset:$(TARGET_COPY_OUT_VENDOR)/bin/gpioset \
-    $(LOCAL_DIR)/proprietary/vendor/bin/grep:$(TARGET_COPY_OUT_VENDOR)/bin/grep \
-    $(LOCAL_DIR)/proprietary/vendor/bin/groups:$(TARGET_COPY_OUT_VENDOR)/bin/groups \
     $(LOCAL_DIR)/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
-    $(LOCAL_DIR)/proprietary/vendor/bin/gunzip:$(TARGET_COPY_OUT_VENDOR)/bin/gunzip \
-    $(LOCAL_DIR)/proprietary/vendor/bin/gzip:$(TARGET_COPY_OUT_VENDOR)/bin/gzip \
-    $(LOCAL_DIR)/proprietary/vendor/bin/head:$(TARGET_COPY_OUT_VENDOR)/bin/head \
-    $(LOCAL_DIR)/proprietary/vendor/bin/hostapd_cli:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd_cli \
-    $(LOCAL_DIR)/proprietary/vendor/bin/hostname:$(TARGET_COPY_OUT_VENDOR)/bin/hostname \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/android.hardware.audio.service-aidl.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service-aidl.mediatek \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/android.hardware.bluetooth-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth-service-mediatek \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/android.hardware.boot-service.mtk:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.boot-service.mtk \
@@ -165,60 +103,26 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq_aidl-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.pq_aidl-service \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/vtservice_aidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vtservice_aidl \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
-    $(LOCAL_DIR)/proprietary/vendor/bin/hwclock:$(TARGET_COPY_OUT_VENDOR)/bin/hwclock \
     $(LOCAL_DIR)/proprietary/vendor/bin/i2cdetect:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdetect \
     $(LOCAL_DIR)/proprietary/vendor/bin/i2cdump:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdump \
     $(LOCAL_DIR)/proprietary/vendor/bin/i2cget:$(TARGET_COPY_OUT_VENDOR)/bin/i2cget \
     $(LOCAL_DIR)/proprietary/vendor/bin/i2cset:$(TARGET_COPY_OUT_VENDOR)/bin/i2cset \
     $(LOCAL_DIR)/proprietary/vendor/bin/i2ctransfer:$(TARGET_COPY_OUT_VENDOR)/bin/i2ctransfer \
-    $(LOCAL_DIR)/proprietary/vendor/bin/iconv:$(TARGET_COPY_OUT_VENDOR)/bin/iconv \
-    $(LOCAL_DIR)/proprietary/vendor/bin/id:$(TARGET_COPY_OUT_VENDOR)/bin/id \
-    $(LOCAL_DIR)/proprietary/vendor/bin/ifconfig:$(TARGET_COPY_OUT_VENDOR)/bin/ifconfig \
     $(LOCAL_DIR)/proprietary/vendor/bin/init.insmod.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.insmod.sh \
     $(LOCAL_DIR)/proprietary/vendor/bin/init.pstore_blk.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.pstore_blk.sh \
-    $(LOCAL_DIR)/proprietary/vendor/bin/inotifyd:$(TARGET_COPY_OUT_VENDOR)/bin/inotifyd \
-    $(LOCAL_DIR)/proprietary/vendor/bin/insmod:$(TARGET_COPY_OUT_VENDOR)/bin/insmod \
-    $(LOCAL_DIR)/proprietary/vendor/bin/install:$(TARGET_COPY_OUT_VENDOR)/bin/install \
-    $(LOCAL_DIR)/proprietary/vendor/bin/ionice:$(TARGET_COPY_OUT_VENDOR)/bin/ionice \
-    $(LOCAL_DIR)/proprietary/vendor/bin/iorenice:$(TARGET_COPY_OUT_VENDOR)/bin/iorenice \
     $(LOCAL_DIR)/proprietary/vendor/bin/ipsec_mon:$(TARGET_COPY_OUT_VENDOR)/bin/ipsec_mon \
     $(LOCAL_DIR)/proprietary/vendor/bin/jpegtool:$(TARGET_COPY_OUT_VENDOR)/bin/jpegtool \
-    $(LOCAL_DIR)/proprietary/vendor/bin/kill:$(TARGET_COPY_OUT_VENDOR)/bin/kill \
-    $(LOCAL_DIR)/proprietary/vendor/bin/killall:$(TARGET_COPY_OUT_VENDOR)/bin/killall \
     $(LOCAL_DIR)/proprietary/vendor/bin/kph:$(TARGET_COPY_OUT_VENDOR)/bin/kph \
     $(LOCAL_DIR)/proprietary/vendor/bin/lib3a.ccu.dm:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.dm \
     $(LOCAL_DIR)/proprietary/vendor/bin/lib3a.ccu.pm:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.pm \
-    $(LOCAL_DIR)/proprietary/vendor/bin/ln:$(TARGET_COPY_OUT_VENDOR)/bin/ln \
-    $(LOCAL_DIR)/proprietary/vendor/bin/load_policy:$(TARGET_COPY_OUT_VENDOR)/bin/load_policy \
-    $(LOCAL_DIR)/proprietary/vendor/bin/log:$(TARGET_COPY_OUT_VENDOR)/bin/log \
-    $(LOCAL_DIR)/proprietary/vendor/bin/logger:$(TARGET_COPY_OUT_VENDOR)/bin/logger \
     $(LOCAL_DIR)/proprietary/vendor/bin/loghidlvendorservice:$(TARGET_COPY_OUT_VENDOR)/bin/loghidlvendorservice \
-    $(LOCAL_DIR)/proprietary/vendor/bin/logname:$(TARGET_COPY_OUT_VENDOR)/bin/logname \
-    $(LOCAL_DIR)/proprietary/vendor/bin/logwrapper:$(TARGET_COPY_OUT_VENDOR)/bin/logwrapper \
-    $(LOCAL_DIR)/proprietary/vendor/bin/losetup:$(TARGET_COPY_OUT_VENDOR)/bin/losetup \
-    $(LOCAL_DIR)/proprietary/vendor/bin/ls:$(TARGET_COPY_OUT_VENDOR)/bin/ls \
-    $(LOCAL_DIR)/proprietary/vendor/bin/lsattr:$(TARGET_COPY_OUT_VENDOR)/bin/lsattr \
-    $(LOCAL_DIR)/proprietary/vendor/bin/lsmod:$(TARGET_COPY_OUT_VENDOR)/bin/lsmod \
-    $(LOCAL_DIR)/proprietary/vendor/bin/lsof:$(TARGET_COPY_OUT_VENDOR)/bin/lsof \
     $(LOCAL_DIR)/proprietary/vendor/bin/lspci:$(TARGET_COPY_OUT_VENDOR)/bin/lspci \
     $(LOCAL_DIR)/proprietary/vendor/bin/lsusb:$(TARGET_COPY_OUT_VENDOR)/bin/lsusb \
-    $(LOCAL_DIR)/proprietary/vendor/bin/md5sum:$(TARGET_COPY_OUT_VENDOR)/bin/md5sum \
     $(LOCAL_DIR)/proprietary/vendor/bin/md_monitor:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor \
     $(LOCAL_DIR)/proprietary/vendor/bin/md_monitor_ctrl:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor_ctrl \
     $(LOCAL_DIR)/proprietary/vendor/bin/memeater:$(TARGET_COPY_OUT_VENDOR)/bin/memeater \
     $(LOCAL_DIR)/proprietary/vendor/bin/meta_tst:$(TARGET_COPY_OUT_VENDOR)/bin/meta_tst \
-    $(LOCAL_DIR)/proprietary/vendor/bin/microcom:$(TARGET_COPY_OUT_VENDOR)/bin/microcom \
-    $(LOCAL_DIR)/proprietary/vendor/bin/mkdir:$(TARGET_COPY_OUT_VENDOR)/bin/mkdir \
-    $(LOCAL_DIR)/proprietary/vendor/bin/mkfifo:$(TARGET_COPY_OUT_VENDOR)/bin/mkfifo \
-    $(LOCAL_DIR)/proprietary/vendor/bin/mknod:$(TARGET_COPY_OUT_VENDOR)/bin/mknod \
-    $(LOCAL_DIR)/proprietary/vendor/bin/mkswap:$(TARGET_COPY_OUT_VENDOR)/bin/mkswap \
-    $(LOCAL_DIR)/proprietary/vendor/bin/mktemp:$(TARGET_COPY_OUT_VENDOR)/bin/mktemp \
     $(LOCAL_DIR)/proprietary/vendor/bin/mnld:$(TARGET_COPY_OUT_VENDOR)/bin/mnld \
-    $(LOCAL_DIR)/proprietary/vendor/bin/modinfo:$(TARGET_COPY_OUT_VENDOR)/bin/modinfo \
-    $(LOCAL_DIR)/proprietary/vendor/bin/modprobe:$(TARGET_COPY_OUT_VENDOR)/bin/modprobe \
-    $(LOCAL_DIR)/proprietary/vendor/bin/more:$(TARGET_COPY_OUT_VENDOR)/bin/more \
-    $(LOCAL_DIR)/proprietary/vendor/bin/mount:$(TARGET_COPY_OUT_VENDOR)/bin/mount \
-    $(LOCAL_DIR)/proprietary/vendor/bin/mountpoint:$(TARGET_COPY_OUT_VENDOR)/bin/mountpoint \
     $(LOCAL_DIR)/proprietary/vendor/bin/mrdump_tool:$(TARGET_COPY_OUT_VENDOR)/bin/mrdump_tool \
     $(LOCAL_DIR)/proprietary/vendor/bin/mt6660_calibration:$(TARGET_COPY_OUT_VENDOR)/bin/mt6660_calibration \
     $(LOCAL_DIR)/proprietary/vendor/bin/mtk_agpsd:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_agpsd \
@@ -227,114 +131,26 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/bin/mtk_plpath_utils_ota:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_plpath_utils_ota \
     $(LOCAL_DIR)/proprietary/vendor/bin/mtk_storageproxyd:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_storageproxyd \
     $(LOCAL_DIR)/proprietary/vendor/bin/muxreport:$(TARGET_COPY_OUT_VENDOR)/bin/muxreport \
-    $(LOCAL_DIR)/proprietary/vendor/bin/mv:$(TARGET_COPY_OUT_VENDOR)/bin/mv \
-    $(LOCAL_DIR)/proprietary/vendor/bin/nc:$(TARGET_COPY_OUT_VENDOR)/bin/nc \
-    $(LOCAL_DIR)/proprietary/vendor/bin/netcat:$(TARGET_COPY_OUT_VENDOR)/bin/netcat \
     $(LOCAL_DIR)/proprietary/vendor/bin/netdagent:$(TARGET_COPY_OUT_VENDOR)/bin/netdagent \
     $(LOCAL_DIR)/proprietary/vendor/bin/netdc:$(TARGET_COPY_OUT_VENDOR)/bin/netdc \
-    $(LOCAL_DIR)/proprietary/vendor/bin/netstat:$(TARGET_COPY_OUT_VENDOR)/bin/netstat \
-    $(LOCAL_DIR)/proprietary/vendor/bin/nice:$(TARGET_COPY_OUT_VENDOR)/bin/nice \
-    $(LOCAL_DIR)/proprietary/vendor/bin/nl:$(TARGET_COPY_OUT_VENDOR)/bin/nl \
-    $(LOCAL_DIR)/proprietary/vendor/bin/nohup:$(TARGET_COPY_OUT_VENDOR)/bin/nohup \
-    $(LOCAL_DIR)/proprietary/vendor/bin/nproc:$(TARGET_COPY_OUT_VENDOR)/bin/nproc \
-    $(LOCAL_DIR)/proprietary/vendor/bin/nsenter:$(TARGET_COPY_OUT_VENDOR)/bin/nsenter \
     $(LOCAL_DIR)/proprietary/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
-    $(LOCAL_DIR)/proprietary/vendor/bin/od:$(TARGET_COPY_OUT_VENDOR)/bin/od \
-    $(LOCAL_DIR)/proprietary/vendor/bin/paste:$(TARGET_COPY_OUT_VENDOR)/bin/paste \
-    $(LOCAL_DIR)/proprietary/vendor/bin/patch:$(TARGET_COPY_OUT_VENDOR)/bin/patch \
-    $(LOCAL_DIR)/proprietary/vendor/bin/pgrep:$(TARGET_COPY_OUT_VENDOR)/bin/pgrep \
-    $(LOCAL_DIR)/proprietary/vendor/bin/pidof:$(TARGET_COPY_OUT_VENDOR)/bin/pidof \
-    $(LOCAL_DIR)/proprietary/vendor/bin/pkill:$(TARGET_COPY_OUT_VENDOR)/bin/pkill \
     $(LOCAL_DIR)/proprietary/vendor/bin/pld:$(TARGET_COPY_OUT_VENDOR)/bin/pld \
-    $(LOCAL_DIR)/proprietary/vendor/bin/pmap:$(TARGET_COPY_OUT_VENDOR)/bin/pmap \
-    $(LOCAL_DIR)/proprietary/vendor/bin/printenv:$(TARGET_COPY_OUT_VENDOR)/bin/printenv \
-    $(LOCAL_DIR)/proprietary/vendor/bin/printf:$(TARGET_COPY_OUT_VENDOR)/bin/printf \
-    $(LOCAL_DIR)/proprietary/vendor/bin/ps:$(TARGET_COPY_OUT_VENDOR)/bin/ps \
-    $(LOCAL_DIR)/proprietary/vendor/bin/pwd:$(TARGET_COPY_OUT_VENDOR)/bin/pwd \
     $(LOCAL_DIR)/proprietary/vendor/bin/rcs_volte_stack:$(TARGET_COPY_OUT_VENDOR)/bin/rcs_volte_stack \
-    $(LOCAL_DIR)/proprietary/vendor/bin/readelf:$(TARGET_COPY_OUT_VENDOR)/bin/readelf \
-    $(LOCAL_DIR)/proprietary/vendor/bin/readlink:$(TARGET_COPY_OUT_VENDOR)/bin/readlink \
-    $(LOCAL_DIR)/proprietary/vendor/bin/realpath:$(TARGET_COPY_OUT_VENDOR)/bin/realpath \
     $(LOCAL_DIR)/proprietary/vendor/bin/recordevent:$(TARGET_COPY_OUT_VENDOR)/bin/recordevent \
-    $(LOCAL_DIR)/proprietary/vendor/bin/renice:$(TARGET_COPY_OUT_VENDOR)/bin/renice \
     $(LOCAL_DIR)/proprietary/vendor/bin/replayevent:$(TARGET_COPY_OUT_VENDOR)/bin/replayevent \
-    $(LOCAL_DIR)/proprietary/vendor/bin/restorecon:$(TARGET_COPY_OUT_VENDOR)/bin/restorecon \
-    $(LOCAL_DIR)/proprietary/vendor/bin/rm:$(TARGET_COPY_OUT_VENDOR)/bin/rm \
-    $(LOCAL_DIR)/proprietary/vendor/bin/rmdir:$(TARGET_COPY_OUT_VENDOR)/bin/rmdir \
-    $(LOCAL_DIR)/proprietary/vendor/bin/rmmod:$(TARGET_COPY_OUT_VENDOR)/bin/rmmod \
     $(LOCAL_DIR)/proprietary/vendor/bin/rt5512_calibration:$(TARGET_COPY_OUT_VENDOR)/bin/rt5512_calibration \
-    $(LOCAL_DIR)/proprietary/vendor/bin/rtcwake:$(TARGET_COPY_OUT_VENDOR)/bin/rtcwake \
     $(LOCAL_DIR)/proprietary/vendor/bin/rttv:$(TARGET_COPY_OUT_VENDOR)/bin/rttv \
-    $(LOCAL_DIR)/proprietary/vendor/bin/runcon:$(TARGET_COPY_OUT_VENDOR)/bin/runcon \
-    $(LOCAL_DIR)/proprietary/vendor/bin/sed:$(TARGET_COPY_OUT_VENDOR)/bin/sed \
-    $(LOCAL_DIR)/proprietary/vendor/bin/sendevent:$(TARGET_COPY_OUT_VENDOR)/bin/sendevent \
-    $(LOCAL_DIR)/proprietary/vendor/bin/seq:$(TARGET_COPY_OUT_VENDOR)/bin/seq \
-    $(LOCAL_DIR)/proprietary/vendor/bin/setenforce:$(TARGET_COPY_OUT_VENDOR)/bin/setenforce \
-    $(LOCAL_DIR)/proprietary/vendor/bin/setfattr:$(TARGET_COPY_OUT_VENDOR)/bin/setfattr \
-    $(LOCAL_DIR)/proprietary/vendor/bin/setprop:$(TARGET_COPY_OUT_VENDOR)/bin/setprop \
-    $(LOCAL_DIR)/proprietary/vendor/bin/setsid:$(TARGET_COPY_OUT_VENDOR)/bin/setsid \
-    $(LOCAL_DIR)/proprietary/vendor/bin/sh:$(TARGET_COPY_OUT_VENDOR)/bin/sh \
-    $(LOCAL_DIR)/proprietary/vendor/bin/sha1sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha1sum \
-    $(LOCAL_DIR)/proprietary/vendor/bin/sha224sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha224sum \
-    $(LOCAL_DIR)/proprietary/vendor/bin/sha256sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha256sum \
-    $(LOCAL_DIR)/proprietary/vendor/bin/sha384sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha384sum \
-    $(LOCAL_DIR)/proprietary/vendor/bin/sha512sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha512sum \
-    $(LOCAL_DIR)/proprietary/vendor/bin/sleep:$(TARGET_COPY_OUT_VENDOR)/bin/sleep \
-    $(LOCAL_DIR)/proprietary/vendor/bin/sort:$(TARGET_COPY_OUT_VENDOR)/bin/sort \
-    $(LOCAL_DIR)/proprietary/vendor/bin/split:$(TARGET_COPY_OUT_VENDOR)/bin/split \
-    $(LOCAL_DIR)/proprietary/vendor/bin/start:$(TARGET_COPY_OUT_VENDOR)/bin/start \
     $(LOCAL_DIR)/proprietary/vendor/bin/starter:$(TARGET_COPY_OUT_VENDOR)/bin/starter \
-    $(LOCAL_DIR)/proprietary/vendor/bin/stat:$(TARGET_COPY_OUT_VENDOR)/bin/stat \
-    $(LOCAL_DIR)/proprietary/vendor/bin/stop:$(TARGET_COPY_OUT_VENDOR)/bin/stop \
     $(LOCAL_DIR)/proprietary/vendor/bin/stp_dump3:$(TARGET_COPY_OUT_VENDOR)/bin/stp_dump3 \
-    $(LOCAL_DIR)/proprietary/vendor/bin/strings:$(TARGET_COPY_OUT_VENDOR)/bin/strings \
     $(LOCAL_DIR)/proprietary/vendor/bin/stroke:$(TARGET_COPY_OUT_VENDOR)/bin/stroke \
-    $(LOCAL_DIR)/proprietary/vendor/bin/stty:$(TARGET_COPY_OUT_VENDOR)/bin/stty \
-    $(LOCAL_DIR)/proprietary/vendor/bin/swapoff:$(TARGET_COPY_OUT_VENDOR)/bin/swapoff \
-    $(LOCAL_DIR)/proprietary/vendor/bin/swapon:$(TARGET_COPY_OUT_VENDOR)/bin/swapon \
-    $(LOCAL_DIR)/proprietary/vendor/bin/sync:$(TARGET_COPY_OUT_VENDOR)/bin/sync \
-    $(LOCAL_DIR)/proprietary/vendor/bin/sysctl:$(TARGET_COPY_OUT_VENDOR)/bin/sysctl \
-    $(LOCAL_DIR)/proprietary/vendor/bin/tac:$(TARGET_COPY_OUT_VENDOR)/bin/tac \
-    $(LOCAL_DIR)/proprietary/vendor/bin/tail:$(TARGET_COPY_OUT_VENDOR)/bin/tail \
-    $(LOCAL_DIR)/proprietary/vendor/bin/tar:$(TARGET_COPY_OUT_VENDOR)/bin/tar \
-    $(LOCAL_DIR)/proprietary/vendor/bin/taskset:$(TARGET_COPY_OUT_VENDOR)/bin/taskset \
-    $(LOCAL_DIR)/proprietary/vendor/bin/tee:$(TARGET_COPY_OUT_VENDOR)/bin/tee \
     $(LOCAL_DIR)/proprietary/vendor/bin/tee_check_keybox:$(TARGET_COPY_OUT_VENDOR)/bin/tee_check_keybox \
     $(LOCAL_DIR)/proprietary/vendor/bin/teed:$(TARGET_COPY_OUT_VENDOR)/bin/teed \
-    $(LOCAL_DIR)/proprietary/vendor/bin/test:$(TARGET_COPY_OUT_VENDOR)/bin/test \
     $(LOCAL_DIR)/proprietary/vendor/bin/thermal:$(TARGET_COPY_OUT_VENDOR)/bin/thermal \
     $(LOCAL_DIR)/proprietary/vendor/bin/thermal_manager:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_manager \
     $(LOCAL_DIR)/proprietary/vendor/bin/thermalloadalgod:$(TARGET_COPY_OUT_VENDOR)/bin/thermalloadalgod \
-    $(LOCAL_DIR)/proprietary/vendor/bin/time:$(TARGET_COPY_OUT_VENDOR)/bin/time \
-    $(LOCAL_DIR)/proprietary/vendor/bin/timeout:$(TARGET_COPY_OUT_VENDOR)/bin/timeout \
     $(LOCAL_DIR)/proprietary/vendor/bin/tlcrpmb_gp:$(TARGET_COPY_OUT_VENDOR)/bin/tlcrpmb_gp \
-    $(LOCAL_DIR)/proprietary/vendor/bin/toolbox:$(TARGET_COPY_OUT_VENDOR)/bin/toolbox \
-    $(LOCAL_DIR)/proprietary/vendor/bin/top:$(TARGET_COPY_OUT_VENDOR)/bin/top \
-    $(LOCAL_DIR)/proprietary/vendor/bin/touch:$(TARGET_COPY_OUT_VENDOR)/bin/touch \
-    $(LOCAL_DIR)/proprietary/vendor/bin/toybox_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/toybox_vendor \
-    $(LOCAL_DIR)/proprietary/vendor/bin/tr:$(TARGET_COPY_OUT_VENDOR)/bin/tr \
-    $(LOCAL_DIR)/proprietary/vendor/bin/true:$(TARGET_COPY_OUT_VENDOR)/bin/true \
-    $(LOCAL_DIR)/proprietary/vendor/bin/truncate:$(TARGET_COPY_OUT_VENDOR)/bin/truncate \
     $(LOCAL_DIR)/proprietary/vendor/bin/trusty-ut-ctrl:$(TARGET_COPY_OUT_VENDOR)/bin/trusty-ut-ctrl \
-    $(LOCAL_DIR)/proprietary/vendor/bin/tty:$(TARGET_COPY_OUT_VENDOR)/bin/tty \
-    $(LOCAL_DIR)/proprietary/vendor/bin/uclampset:$(TARGET_COPY_OUT_VENDOR)/bin/uclampset \
-    $(LOCAL_DIR)/proprietary/vendor/bin/ulimit:$(TARGET_COPY_OUT_VENDOR)/bin/ulimit \
-    $(LOCAL_DIR)/proprietary/vendor/bin/umount:$(TARGET_COPY_OUT_VENDOR)/bin/umount \
-    $(LOCAL_DIR)/proprietary/vendor/bin/uname:$(TARGET_COPY_OUT_VENDOR)/bin/uname \
-    $(LOCAL_DIR)/proprietary/vendor/bin/uniq:$(TARGET_COPY_OUT_VENDOR)/bin/uniq \
-    $(LOCAL_DIR)/proprietary/vendor/bin/unix2dos:$(TARGET_COPY_OUT_VENDOR)/bin/unix2dos \
-    $(LOCAL_DIR)/proprietary/vendor/bin/unlink:$(TARGET_COPY_OUT_VENDOR)/bin/unlink \
-    $(LOCAL_DIR)/proprietary/vendor/bin/unshare:$(TARGET_COPY_OUT_VENDOR)/bin/unshare \
-    $(LOCAL_DIR)/proprietary/vendor/bin/uptime:$(TARGET_COPY_OUT_VENDOR)/bin/uptime \
-    $(LOCAL_DIR)/proprietary/vendor/bin/usleep:$(TARGET_COPY_OUT_VENDOR)/bin/usleep \
-    $(LOCAL_DIR)/proprietary/vendor/bin/uudecode:$(TARGET_COPY_OUT_VENDOR)/bin/uudecode \
-    $(LOCAL_DIR)/proprietary/vendor/bin/uuencode:$(TARGET_COPY_OUT_VENDOR)/bin/uuencode \
-    $(LOCAL_DIR)/proprietary/vendor/bin/uuidgen:$(TARGET_COPY_OUT_VENDOR)/bin/uuidgen \
     $(LOCAL_DIR)/proprietary/vendor/bin/v3avpud:$(TARGET_COPY_OUT_VENDOR)/bin/v3avpud \
-    $(LOCAL_DIR)/proprietary/vendor/bin/vi:$(TARGET_COPY_OUT_VENDOR)/bin/vi \
-    $(LOCAL_DIR)/proprietary/vendor/bin/vmstat:$(TARGET_COPY_OUT_VENDOR)/bin/vmstat \
-    $(LOCAL_DIR)/proprietary/vendor/bin/vndservice:$(TARGET_COPY_OUT_VENDOR)/bin/vndservice \
-    $(LOCAL_DIR)/proprietary/vendor/bin/vndservicemanager:$(TARGET_COPY_OUT_VENDOR)/bin/vndservicemanager \
     $(LOCAL_DIR)/proprietary/vendor/bin/volte_clientapi_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_clientapi_ua \
     $(LOCAL_DIR)/proprietary/vendor/bin/volte_imcb:$(TARGET_COPY_OUT_VENDOR)/bin/volte_imcb \
     $(LOCAL_DIR)/proprietary/vendor/bin/volte_imsm_93:$(TARGET_COPY_OUT_VENDOR)/bin/volte_imsm_93 \
@@ -342,19 +158,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/bin/volte_rcs_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_rcs_ua \
     $(LOCAL_DIR)/proprietary/vendor/bin/volte_stack:$(TARGET_COPY_OUT_VENDOR)/bin/volte_stack \
     $(LOCAL_DIR)/proprietary/vendor/bin/volte_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_ua \
-    $(LOCAL_DIR)/proprietary/vendor/bin/watch:$(TARGET_COPY_OUT_VENDOR)/bin/watch \
-    $(LOCAL_DIR)/proprietary/vendor/bin/wc:$(TARGET_COPY_OUT_VENDOR)/bin/wc \
     $(LOCAL_DIR)/proprietary/vendor/bin/wfca:$(TARGET_COPY_OUT_VENDOR)/bin/wfca \
-    $(LOCAL_DIR)/proprietary/vendor/bin/which:$(TARGET_COPY_OUT_VENDOR)/bin/which \
-    $(LOCAL_DIR)/proprietary/vendor/bin/whoami:$(TARGET_COPY_OUT_VENDOR)/bin/whoami \
     $(LOCAL_DIR)/proprietary/vendor/bin/wlan_assistant:$(TARGET_COPY_OUT_VENDOR)/bin/wlan_assistant \
     $(LOCAL_DIR)/proprietary/vendor/bin/wmt_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_launcher \
     $(LOCAL_DIR)/proprietary/vendor/bin/wmt_loader:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loader \
-    $(LOCAL_DIR)/proprietary/vendor/bin/wpa_cli:$(TARGET_COPY_OUT_VENDOR)/bin/wpa_cli \
-    $(LOCAL_DIR)/proprietary/vendor/bin/xargs:$(TARGET_COPY_OUT_VENDOR)/bin/xargs \
-    $(LOCAL_DIR)/proprietary/vendor/bin/xxd:$(TARGET_COPY_OUT_VENDOR)/bin/xxd \
-    $(LOCAL_DIR)/proprietary/vendor/bin/yes:$(TARGET_COPY_OUT_VENDOR)/bin/yes \
-    $(LOCAL_DIR)/proprietary/vendor/bin/zcat:$(TARGET_COPY_OUT_VENDOR)/bin/zcat \
     $(LOCAL_DIR)/proprietary/vendor/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
     $(LOCAL_DIR)/proprietary/vendor/etc/.tp/.thermal_policy_00:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_00 \
     $(LOCAL_DIR)/proprietary/vendor/etc/.tp/.thermal_policy_03:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_03 \
