@@ -69,7 +69,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/android.hardware.security.keymint@3.0-service.trustkernel:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint@3.0-service.trustkernel \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/android.hardware.usb-aidl-service.mediatekv1.0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb-aidl-service.mediatekv1.0 \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/android.hardware.usb.gadget-aidl-service.mediatekv1.0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb.gadget-aidl-service.mediatekv1.0 \
-    $(LOCAL_DIR)/proprietary/vendor/bin/hw/android.hardware.vibrator-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator-service.mediatek \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/vendor.mediatek.hardware.aee@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.aee@1.1-service \
@@ -85,7 +84,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/bin/loghidlvendorservice:$(TARGET_COPY_OUT_VENDOR)/bin/loghidlvendorservice \
     $(LOCAL_DIR)/proprietary/vendor/bin/md_monitor:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor \
     $(LOCAL_DIR)/proprietary/vendor/bin/md_monitor_ctrl:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor_ctrl \
-    $(LOCAL_DIR)/proprietary/vendor/bin/memeater:$(TARGET_COPY_OUT_VENDOR)/bin/memeater \
     $(LOCAL_DIR)/proprietary/vendor/bin/meta_tst:$(TARGET_COPY_OUT_VENDOR)/bin/meta_tst \
     $(LOCAL_DIR)/proprietary/vendor/bin/mnld:$(TARGET_COPY_OUT_VENDOR)/bin/mnld \
     $(LOCAL_DIR)/proprietary/vendor/bin/mrdump_tool:$(TARGET_COPY_OUT_VENDOR)/bin/mrdump_tool \
@@ -113,7 +111,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/bin/thermal_manager:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_manager \
     $(LOCAL_DIR)/proprietary/vendor/bin/thermalloadalgod:$(TARGET_COPY_OUT_VENDOR)/bin/thermalloadalgod \
     $(LOCAL_DIR)/proprietary/vendor/bin/tlcrpmb_gp:$(TARGET_COPY_OUT_VENDOR)/bin/tlcrpmb_gp \
-    $(LOCAL_DIR)/proprietary/vendor/bin/trusty-ut-ctrl:$(TARGET_COPY_OUT_VENDOR)/bin/trusty-ut-ctrl \
     $(LOCAL_DIR)/proprietary/vendor/bin/v3avpud:$(TARGET_COPY_OUT_VENDOR)/bin/v3avpud \
     $(LOCAL_DIR)/proprietary/vendor/bin/volte_clientapi_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_clientapi_ua \
     $(LOCAL_DIR)/proprietary/vendor/bin/volte_imcb:$(TARGET_COPY_OUT_VENDOR)/bin/volte_imcb \
@@ -142,13 +139,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/etc/VideoLog_dynamic.ds:$(TARGET_COPY_OUT_VENDOR)/etc/VideoLog_dynamic.ds \
     $(LOCAL_DIR)/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/aconfig_flags.pb:$(TARGET_COPY_OUT_VENDOR)/etc/aconfig_flags.pb \
     $(LOCAL_DIR)/proprietary/vendor/etc/aee-commit:$(TARGET_COPY_OUT_VENDOR)/etc/aee-commit \
     $(LOCAL_DIR)/proprietary/vendor/etc/aee-config:$(TARGET_COPY_OUT_VENDOR)/etc/aee-config \
-    $(LOCAL_DIR)/proprietary/vendor/etc/aidl/hfp/hfp_codec_capabilities.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aidl/hfp/hfp_codec_capabilities.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/aidl/le_audio/aidl_audio_set_configurations.bfbs:$(TARGET_COPY_OUT_VENDOR)/etc/aidl/le_audio/aidl_audio_set_configurations.bfbs \
     $(LOCAL_DIR)/proprietary/vendor/etc/aidl/le_audio/aidl_audio_set_configurations.json:$(TARGET_COPY_OUT_VENDOR)/etc/aidl/le_audio/aidl_audio_set_configurations.json \
-    $(LOCAL_DIR)/proprietary/vendor/etc/aidl/le_audio/aidl_audio_set_scenarios.bfbs:$(TARGET_COPY_OUT_VENDOR)/etc/aidl/le_audio/aidl_audio_set_scenarios.bfbs \
     $(LOCAL_DIR)/proprietary/vendor/etc/aidl/le_audio/aidl_audio_set_scenarios.json:$(TARGET_COPY_OUT_VENDOR)/etc/aidl/le_audio/aidl_audio_set_scenarios.json \
     $(LOCAL_DIR)/proprietary/vendor/etc/apdb/APDB_MT6768_S01__W2534:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6768_S01__W2534 \
     $(LOCAL_DIR)/proprietary/vendor/etc/apdb/APDB_MT6768_S01__W2534_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6768_S01__W2534_ENUM \
@@ -854,7 +847,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/libaal_key.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_key.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libaal_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_sec.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaalservice.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libaconfig_storage_read_api_cc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaconfig_storage_read_api_cc.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libalsautilsv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautilsv2.so \
@@ -1008,7 +1000,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/libmtkhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkhardware_legacy.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtklimiter_vendor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libmtknetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtknetutils.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libmtkperf_client_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkperf_client_vendor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libmtkproperty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkproperty.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libmtkrillog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkrillog.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkshifter_vendor.so \
@@ -1031,7 +1022,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/libpower.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpower.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpower_timer.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhal.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhalwrap_vendor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust_base.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libpq_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_sec.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqframework.so \
@@ -1257,7 +1247,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.memtrack-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.memtrack-V1-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.power-V4-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power-V4-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.power-V5-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power-V5-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.power-service-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power-service-mediatek.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.power@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power@1.0.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.power@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power@1.1.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.power@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power@1.2.so \
@@ -1409,7 +1398,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaalservice.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libabfadp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libabfadp.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libacdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libaconfig_storage_read_api_cc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaconfig_storage_read_api_cc.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libaimemc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaimemc.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils.so \
@@ -1717,7 +1705,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libmtkmipc-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkmipc-ril.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libmtknetcap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtknetcap.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libmtknetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtknetutils.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libmtkperf_client_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkperf_client_vendor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libmtkproperty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkproperty.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libmtkrillog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrillog.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libmtkrilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrilutils.so \
@@ -1744,7 +1731,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libpower.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower_timer.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhal.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhalwrap_vendor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_cust_base.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libpq_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_sec.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqframework.so \
