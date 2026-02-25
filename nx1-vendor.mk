@@ -1387,7 +1387,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libmockdrmcryptoplugin.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/meta_wifi_data.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/modules:$(TARGET_COPY_OUT_VENDOR)/lib/modules \
     $(LOCAL_DIR)/proprietary/vendor/lib/mt6768/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6768/libdpframework.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/mt6768/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6768/libmml.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/mt6768/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6768/libmtk_drvb.so \
