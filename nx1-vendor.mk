@@ -962,7 +962,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/etc/usb_audio_accessory_only_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_accessory_only_policy_configuration.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/vintf/compatibility_matrix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/compatibility_matrix.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/CommandService.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/CommandService.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.audio.effect.service-aidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.audio.effect.service-aidl.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/vintf/manifest/android.hardware.audio.service-aidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.audio.service-aidl.xml \

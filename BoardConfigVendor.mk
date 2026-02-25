@@ -6,6 +6,9 @@
 
 LOCAL_DIR := vendor/bluefox/nx1
 
+# VINTF compatibility matrix
+DEVICE_MATRIX_FILE += vendor/bluefox/nx1/proprietary/vendor/etc/vintf/compatibility_matrix.xml
+
 # Vendor DLKM kernel modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := \
     fhctl.ko \
