@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/app/t6/data/E62563B4905C52822EADA8E32E5180D6/6B6579626F785F6372797074:$(TARGET_COPY_OUT_VENDOR)/app/t6/data/E62563B4905C52822EADA8E32E5180D6/6B6579626F785F6372797074 \
     $(LOCAL_DIR)/proprietary/vendor/app/t6/ffffffff-126c-d6ab-5a1dfa772a732a75.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/ffffffff-126c-d6ab-5a1dfa772a732a75.ta \
     $(LOCAL_DIR)/proprietary/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
-    $(LOCAL_DIR)/proprietary/vendor/bin/[:$(TARGET_COPY_OUT_VENDOR)/bin/[ \
     $(LOCAL_DIR)/proprietary/vendor/bin/acpi:$(TARGET_COPY_OUT_VENDOR)/bin/acpi \
     $(LOCAL_DIR)/proprietary/vendor/bin/aee_aedv:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv \
     $(LOCAL_DIR)/proprietary/vendor/bin/aee_aedv64:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv64 \
