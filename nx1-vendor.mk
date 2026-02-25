@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/android.hardware.audio.service-aidl.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service-aidl.mediatek \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/android.hardware.bluetooth-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth-service-mediatek \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/android.hardware.boot-service.mtk:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.boot-service.mtk \
-    $(LOCAL_DIR)/proprietary/vendor/bin/hw/android.hardware.contexthub-service.tinysys:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.contexthub-service.tinysys \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/android.hardware.gatekeeper-service.trustkernel:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper-service.trustkernel \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/android.hardware.gnss-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss-service.mediatek \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/android.hardware.graphics.allocator-V2-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator-V2-service-mediatek \
@@ -76,10 +75,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/android.hardware.usb-aidl-service.mediatekv1.0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb-aidl-service.mediatekv1.0 \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/android.hardware.usb.gadget-aidl-service.mediatekv1.0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb.gadget-aidl-service.mediatekv1.0 \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/android.hardware.vibrator-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator-service.mediatek \
-    $(LOCAL_DIR)/proprietary/vendor/bin/hw/android.hardware.wifi-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi-service-lazy \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
-    $(LOCAL_DIR)/proprietary/vendor/bin/hw/tetheroffloadservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/tetheroffloadservice \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/vendor.mediatek.hardware.aee@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.aee@1.1-service \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/vendor.mediatek.hardware.aee@V1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.aee@V1-service \
     $(LOCAL_DIR)/proprietary/vendor/bin/hw/vendor.mediatek.hardware.gpuserv-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.gpuserv-service \
@@ -367,7 +364,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/etc/init/android.hardware.tetheroffload-V1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.tetheroffload-V1-service.rc \
     $(LOCAL_DIR)/proprietary/vendor/etc/init/android.hardware.usb-aidl-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb-aidl-service.mediatek.rc \
     $(LOCAL_DIR)/proprietary/vendor/etc/init/android.hardware.usb.gadget-aidl-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget-aidl-service.mediatek.rc \
-    $(LOCAL_DIR)/proprietary/vendor/etc/init/android.hardware.wifi-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi-service-lazy.rc \
     $(LOCAL_DIR)/proprietary/vendor/etc/init/arm.mali.platform-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/arm.mali.platform-mediatek.rc \
     $(LOCAL_DIR)/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     $(LOCAL_DIR)/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
