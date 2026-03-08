@@ -135,7 +135,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/etc/AudioLog_dynamic.ds:$(TARGET_COPY_OUT_VENDOR)/etc/AudioLog_dynamic.ds \
     $(LOCAL_DIR)/proprietary/vendor/etc/MBrain_dynamic.ds:$(TARGET_COPY_OUT_VENDOR)/etc/MBrain_dynamic.ds \
     $(LOCAL_DIR)/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/etc/NOTICE.xml.gz \
     $(LOCAL_DIR)/proprietary/vendor/etc/VideoLog_dynamic.ds:$(TARGET_COPY_OUT_VENDOR)/etc/VideoLog_dynamic.ds \
     $(LOCAL_DIR)/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
@@ -287,11 +286,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/etc/aurisys_config_rv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_rv.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/bluetooth_offload_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_offload_audio_policy_configuration.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/boringssl_self_test.no_zygote.rc:$(TARGET_COPY_OUT_VENDOR)/etc/boringssl_self_test.no_zygote.rc \
-    $(LOCAL_DIR)/proprietary/vendor/etc/boringssl_self_test.zygote32.rc:$(TARGET_COPY_OUT_VENDOR)/etc/boringssl_self_test.zygote32.rc \
-    $(LOCAL_DIR)/proprietary/vendor/etc/boringssl_self_test.zygote64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/boringssl_self_test.zygote64.rc \
-    $(LOCAL_DIR)/proprietary/vendor/etc/boringssl_self_test.zygote64_32.rc:$(TARGET_COPY_OUT_VENDOR)/etc/boringssl_self_test.zygote64_32.rc \
-    $(LOCAL_DIR)/proprietary/vendor/etc/build_flags.json:$(TARGET_COPY_OUT_VENDOR)/etc/build_flags.json \
     $(LOCAL_DIR)/proprietary/vendor/etc/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
     $(LOCAL_DIR)/proprietary/vendor/etc/command.csv:$(TARGET_COPY_OUT_VENDOR)/etc/command.csv \
     $(LOCAL_DIR)/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
@@ -443,58 +437,34 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/etc/ipsec/ssl/openssl.cnf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ssl/openssl.cnf \
     $(LOCAL_DIR)/proprietary/vendor/etc/ipsec/strongswan.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/strongswan.conf \
     $(LOCAL_DIR)/proprietary/vendor/etc/le_audio_codec_capabilities.xml:$(TARGET_COPY_OUT_VENDOR)/etc/le_audio_codec_capabilities.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/linker.config.pb:$(TARGET_COPY_OUT_VENDOR)/etc/linker.config.pb \
     $(LOCAL_DIR)/proprietary/vendor/etc/mali_platform.config:$(TARGET_COPY_OUT_VENDOR)/etc/mali_platform.config \
     $(LOCAL_DIR)/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/mkshrc:$(TARGET_COPY_OUT_VENDOR)/etc/mkshrc \
     $(LOCAL_DIR)/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.bluetooth_le.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.prebuilt.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.bluetooth_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.consumerir.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.prebuilt.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.faketouch.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.faketouch.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.keystore.app_attest_key.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.keystore.app_attest_key.prebuilt.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.location.gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.microphone.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.microphone.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.opengles.aep.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.prebuilt.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.sensor.accelerometer.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.accelerometer.prebuilt.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.sensor.compass.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.compass.prebuilt.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.sensor.gyroscope.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.gyroscope.prebuilt.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.sensor.light.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.light.prebuilt.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.sensor.proximity.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.proximity.prebuilt.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.sensor.stepcounter.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepcounter.prebuilt.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.sensor.stepdetector.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepdetector.prebuilt.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.telephony.ims.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.ims.prebuilt.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.touchscreen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.usb.accessory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.accessory.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.usb.host.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.host.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.vulkan.compute-0.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute-0.prebuilt.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.vulkan.level-1.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level-1.prebuilt.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.vulkan.version-1_3.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_3.prebuilt.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.wifi.direct.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.direct.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.wifi.passpoint.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.passpoint.prebuilt.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.hardware.wifi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.software.device_id_attestation.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.prebuilt.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.software.ipsec_tunnels.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.ipsec_tunnels.prebuilt.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.software.midi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.software.opengles.deqp.level-2024-03-01.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.opengles.deqp.level-2024-03-01.prebuilt.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.software.verified_boot.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.prebuilt.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/android.software.vulkan.deqp.level-2024-03-01.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level-2024-03-01.prebuilt.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/features_com.android.virt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/features_com.android.virt.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/permissions/handheld_core_hardware.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.prebuilt.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
     $(LOCAL_DIR)/proprietary/vendor/etc/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml \
@@ -673,21 +643,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/etc/security/cacerts_supl/lab/b805b58a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b805b58a.0 \
     $(LOCAL_DIR)/proprietary/vendor/etc/security/cacerts_supl/lab/ed7b215e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ed7b215e.0 \
     $(LOCAL_DIR)/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
-    $(LOCAL_DIR)/proprietary/vendor/etc/selinux/plat_pub_versioned.cil:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/plat_pub_versioned.cil \
-    $(LOCAL_DIR)/proprietary/vendor/etc/selinux/plat_sepolicy_vers.txt:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/plat_sepolicy_vers.txt \
-    $(LOCAL_DIR)/proprietary/vendor/etc/selinux/precompiled_sepolicy:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/precompiled_sepolicy \
-    $(LOCAL_DIR)/proprietary/vendor/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256 \
-    $(LOCAL_DIR)/proprietary/vendor/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256 \
-    $(LOCAL_DIR)/proprietary/vendor/etc/selinux/selinux_denial_metadata:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/selinux_denial_metadata \
-    $(LOCAL_DIR)/proprietary/vendor/etc/selinux/vendor_file_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_file_contexts \
-    $(LOCAL_DIR)/proprietary/vendor/etc/selinux/vendor_hwservice_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_hwservice_contexts \
-    $(LOCAL_DIR)/proprietary/vendor/etc/selinux/vendor_keystore2_key_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_keystore2_key_contexts \
-    $(LOCAL_DIR)/proprietary/vendor/etc/selinux/vendor_mac_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_mac_permissions.xml \
-    $(LOCAL_DIR)/proprietary/vendor/etc/selinux/vendor_property_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_property_contexts \
-    $(LOCAL_DIR)/proprietary/vendor/etc/selinux/vendor_seapp_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_seapp_contexts \
-    $(LOCAL_DIR)/proprietary/vendor/etc/selinux/vendor_sepolicy.cil:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_sepolicy.cil \
-    $(LOCAL_DIR)/proprietary/vendor/etc/selinux/vendor_service_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_service_contexts \
-    $(LOCAL_DIR)/proprietary/vendor/etc/selinux/vndservice_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vndservice_contexts \
     $(LOCAL_DIR)/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     $(LOCAL_DIR)/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     $(LOCAL_DIR)/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
@@ -722,70 +677,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_bt_1a_1_hdr.bin \
     $(LOCAL_DIR)/proprietary/vendor/firmware/soc1_0_ram_mcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_mcu_1a_1_hdr.bin \
     $(LOCAL_DIR)/proprietary/vendor/firmware/soc1_0_ram_wifi_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_wifi_1a_1_hdr.bin \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.frameworks.sensorservice-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.sensorservice-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.frameworks.sensorservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.sensorservice@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.audio.common-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-util.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.audio.common@5.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@5.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.audio.common@6.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@6.0-util.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.audio.common@6.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@6.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.audio.core-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.core-V2-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.audio.core-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.core-impl-mediatek.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.audio.core.sounddose-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.core.sounddose-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.audio.effect-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.effect-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.audio.effect@6.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.effect@6.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.audio@6.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio@6.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.bluetooth.audio-V4-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.bluetooth.audio-V4-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.bluetooth.audio-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.bluetooth.audio-impl-mediatek.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.bluetooth.audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.bluetooth.audio@2.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.bluetooth.audio@2.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.common-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.common-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.common.fmq-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.common.fmq-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.graphics.allocator-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.allocator-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.allocator@2.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.graphics.allocator@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.allocator@3.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.graphics.allocator@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.allocator@4.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.graphics.bufferqueue@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.bufferqueue@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.graphics.bufferqueue@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.bufferqueue@2.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.graphics.common-V4-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.common-V4-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.graphics.common-V5-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.common-V5-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.graphics.common@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.common@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.graphics.common@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.common@1.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.graphics.common@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.common@1.2.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.graphics.mapper@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.mapper@2.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.graphics.mapper@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.mapper@2.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.graphics.mapper@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.mapper@3.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.graphics.mapper@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.mapper@4.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.media.bufferpool2-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media.bufferpool2-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.media.bufferpool@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media.bufferpool@2.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.media.c2-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media.c2-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.media.c2@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media.c2@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.media.c2@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media.c2@1.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.media.c2@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media.c2@1.2.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.media.omx@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media.omx@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.media@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.radio@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.radio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.radio@1.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.renderscript@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.renderscript@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.security.keymint-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.security.keymint-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.security.rkp-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.security.rkp-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.security.secureclock-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.security.secureclock-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.security.sharedsecret-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.security.sharedsecret-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.sensors-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.sensors-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.sensors@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.sensors@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.sensors@2.0-ScopedWakelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.sensors@2.0-ScopedWakelock.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.sensors@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.sensors@2.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.sensors@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.sensors@2.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hardware.soundtrigger3-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.soundtrigger3-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hidl.memory.token@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hidl.memory.token@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hidl.memory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hidl.memory@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hidl.safe_union@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hidl.safe_union@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hidl.token@1.0-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hidl.token@1.0-utils.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.hidl.token@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hidl.token@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.media.audio.common.types-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.media.audio.common.types-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.media.soundtrigger.types-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.media.soundtrigger.types-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.system.suspend-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.system.suspend-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/android.system.wifi.keystore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.system.wifi.keystore@1.0.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/arm.graphics-V5-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V5-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/arm.mali.platform-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.mali.platform-V2-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
@@ -796,26 +689,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_qt.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/gc5025_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc5025_mipi_raw_tuning.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth.audio@2.1-impl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/hw/android.hardware.graphics.allocator-V2-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator-V2-mediatek.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/hw/android.hardware.renderscript@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.renderscript@1.0-impl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/hw/android.hardware.soundtrigger3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.soundtrigger3-impl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth.default.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/hw/audio.primary.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6768.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.default.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/hw/audio.r_submix.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6768.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.default.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio_policy.stub.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/hw/consumerir.common.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.common.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/hw/lights.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.mt6768.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/local_time.default.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/hw/mapper.mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mapper.mediatek.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.default.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/hw/sensors.dynamic_sensor_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.dynamic_sensor_hal.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.default.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/hw/thermal_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal_hal.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/hw/vendor.mediatek.hardware.audio-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.audio-impl.so \
@@ -825,7 +706,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram-impl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq_aidl-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq_aidl-impl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony-impl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/hw/vibrator.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.mt6768.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/hw/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mali.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/imx230_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx230_mipi_raw_tuning.so \
@@ -837,10 +717,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/libMtkSpeechEnh_swb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh_swb.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNoFpsActor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libRSCpuRef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSCpuRef.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libRSDriver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libRS_internal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRS_internal.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/lib_android_keymaster_keymint_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_android_keymaster_keymint_utils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_iir.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/lib_power_applist.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_power_applist.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libaal_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_cust.so \
@@ -848,8 +724,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/libaal_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_sec.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaalservice.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libalsautilsv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautilsv2.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapmonitor_vendor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapu_mdw.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libarm_egl_properties_sysprop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarm_egl_properties_sysprop.so \
@@ -858,9 +732,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/libasn1c_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_core.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libasn1c_mapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_mapi.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libasn1c_mdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_mdmi.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libaudio_aidl_conversion_common_ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_aidl_conversion_common_ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_param_parser-vnd.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libaudioaidlcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioaidlcommon.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter_vendor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libaudiocompensationfilterc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilterc.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libaudiocomponentengine_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocomponentengine_vendor.so \
@@ -872,17 +744,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/libaudiopolicyconfigxml_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiopolicyconfigxml_mtk_vendor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioprimarydevicehalifclient.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiotoolkit_vendor.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioutils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaurisysdemo.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libavservices_minijail.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavservices_minijail.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libbcinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbcinfo.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk_vendor.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbinder.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libblas.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblas.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32_vendor.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libbluetooth_audio_session_aidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_aidl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libbluetooth_audio_session_aidl_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_aidl_mtk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_mediatek.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libbluetooth_hw_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_hw_test.so \
@@ -892,54 +756,30 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetoothem_mtk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libc++.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libcam.halsensor.hwintegration.isp4t.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halsensor.hwintegration.isp4t.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libcap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcap.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapctrl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcarrierconfig.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libccci_util.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libclang_rt.ubsan_standalone-arm-android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libclang_rt.ubsan_standalone-arm-android.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libcodec2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libcodec2_aidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_aidl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libcodec2_fsr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_fsr.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libcodec2_hal_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hal_common.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libcodec2_hidl@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libcodec2_hidl@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl@1.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libcodec2_hidl@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl@1.2.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libcodec2_hidl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl_plugin.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libcodec2_mtk_c2store.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_c2store.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libcodec2_mtk_vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_vdec.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libcodec2_mtk_venc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_venc.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libcodec2_soft_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_common.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libcodec2_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libcodec2_vpp_fa_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_fa_plugin.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libcodec2_vpp_mi_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_mi_plugin.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libcodec2_vpp_qt_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_qt_plugin.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libcodec2_vpp_rs_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_rs_plugin.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libcompiler_rt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcompiler_rt.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libcomposer_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcomposer_ext.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconnfem.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libcppbor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppbor.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libcppcose_rkp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppcose_rkp.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libcrypto-mdapp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcrypto-mdapp.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcrypto.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libcurl-md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcurl-md.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libcurl_xcap_md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcurl_xcap_md.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcutils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdecrypt.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libdmabufheap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdmabufheap.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpframework.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrm.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdynamiclog.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libeffects.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeffects.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libeffectsconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeffectsconfig.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libexpat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexpat.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libflatbuffers-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflatbuffers-cpp.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libfmq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfmq.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libformatter.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libged.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_aux.so \
@@ -947,7 +787,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpudataproducer.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_extra.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_metadata.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libgralloctypes.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloctypes.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloctypes_mtk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libgz_gp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgz_gp_client.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libgz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgz_uree.so \
@@ -955,36 +794,19 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/libh264dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_sa.ca7.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libh264dec_sd.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_sd.ca7.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libh264dec_se.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_se.ca7.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libhardware.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhardware.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhardware_legacy.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhevce_sb.ca7.android.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhidlbase.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libhidlmemory.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhidlmemory.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libhidltransport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhidltransport.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libhidparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhidparser.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libhwbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwbinder.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwm.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libicd_decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicd_decoder.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libimgsensorca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimgsensorca.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_mtk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_ulit.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libipsec_ims_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipsec_ims_shr.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libispcameraca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libispcameraca.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libkeymaster_messages.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster_messages.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libkeymaster_portable.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster_portable.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libkeymint.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymint.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libkeymint_tool.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymint_tool.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeystore-wifi-hidl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkmsetkey.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libkphhelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkphhelper.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libkphproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkphproxy.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/liblzma.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblzma.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libmedia_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmedia_helper.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libmediautils_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmediautils_vendor.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libmemunreachable.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmemunreachable.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libminijail.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminijail.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminiui.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmml.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmprofile.so \
@@ -1008,18 +830,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtksysutils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libmvpu_config_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_config_data.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libmvpu_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_wrapper.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libnbaio_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnbaio_mono.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libnetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetutils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_sec.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxp_extamp_intf.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libpcap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpcap.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfctl_vendor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpixelflinger.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpkm.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libpng.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpng.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libpower.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpower.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpower_timer.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhal.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust_base.so \
@@ -1030,48 +847,23 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/libpqsharememory.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqsharememory.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libpqtuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqtuning.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libpqxmlparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqxmlparser.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libprocessgroup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprocessgroup.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libprotobuf-cpp-full-21.12.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-21.12.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libprotobuf-cpp-lite-21.12.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-21.12.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libpuresoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpuresoftkeymasterdevice.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libreference-ril.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/librgbwlightsensor.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilutils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libsdrparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdrparser.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsfplugin_ccodec_utils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimlock.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimmelock.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libsoft_attestation_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsoft_attestation_cert.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libspeexresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeexresampler.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libssl-mdapp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssl-mdapp.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libssl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libstagefright_aidl_bufferpool2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_aidl_bufferpool2.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferpool@2.0.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libstagefright_bufferqueue_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferqueue_helper.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_foundation.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libswtcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswtcc.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libsysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysutils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libteec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteec.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyalsa.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libtinyalsav2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyalsav2.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libtinyxml2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libtranslator_mapi_v3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtranslator_mapi_v3.0.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libtranslator_mdmi_v2.8.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtranslator_mdmi_v2.8.2.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libtranslator_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtranslator_utils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libui.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libunwindstack.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunwindstack.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutils.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libutilscallstack.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutilscallstack.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libutinterface_custom_md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutinterface_custom_md.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libutinterface_md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutinterface_md.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_oal.so \
@@ -1079,7 +871,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv_header_stub.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libvcodecdrv_v3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv_v3a.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libverno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libverno.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libvibratorutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvibratorutils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libvolte_core_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvolte_core_shr.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libvolte_xdmc_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvolte_xdmc_shr.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libvp8dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8dec_sa.ca7.so \
@@ -1091,12 +882,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwapi.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libwifinvramdata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifinvramdata.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwo.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libxml2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml2.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/libz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libz.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediacas/libclearkeycasplugin.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libmockdrmcryptoplugin.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/meta_wifi_data.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/mt6768/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6768/libdpframework.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/mt6768/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6768/libmml.so \
@@ -1105,40 +890,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/mt6768/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6768/libpqparamparser.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/ov5670_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov5670_mipi_raw_tuning.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/s5k2t7sp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k2t7sp_mipi_raw_tuning.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/server_configurable_flags.so:$(TARGET_COPY_OUT_VENDOR)/lib/server_configurable_flags.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libaecsw.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaecsw.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libaecsw_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaecsw_mtk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libagc1sw.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libagc1sw.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libagc1sw_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libagc1sw_mtk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libagc2sw.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libagc2sw.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libagc2sw_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libagc2sw_mtk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libbassboostsw.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libbassboostsw.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libbundleaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libbundleaidl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libbundlewrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libbundlewrapper.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libdownmix.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdownmix.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libdownmixaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdownmixaidl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libdynamicsprocessingaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdynamicsprocessingaidl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdynproc.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libeffectproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libeffectproxy.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libenvreverbsw.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libenvreverbsw.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libequalizersw.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libequalizersw.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libextensioneffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libextensioneffect.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libhapticgenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libhapticgenerator.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libhapticgeneratoraidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libhapticgeneratoraidl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libldnhncr.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libldnhncr.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libloudnessenhanceraidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libloudnessenhanceraidl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libnssw.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libnssw.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libnssw_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libnssw_mtk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libpreprocessingaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libpreprocessingaidl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libpreprocessingaidl_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libpreprocessingaidl_mtk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libpresetreverbsw.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libpresetreverbsw.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libreverbaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libreverbaidl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libreverbwrapper.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libvirtualizersw.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvirtualizersw.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvisualizer.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libvisualizeraidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvisualizeraidl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/soundfx/libvolumesw.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvolumesw.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/vendor.mediatek.framework.mtksf_ext-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.framework.mtksf_ext-V2-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apmonitor-V1-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apmonitor@2.0.so \
@@ -1156,9 +912,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/vendor.mediatek.hardware.mms-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms-V1-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkpower-V2-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkpower-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkpower@1.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkpower@1.2.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower_applist-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkpower_applist-V3-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/vendor.mediatek.hardware.netdagent-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.netdagent-V1-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.netdagent@1.0.so \
@@ -1170,136 +923,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib/vendor.mediatek.hardware.rcs@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.rcs@2.0.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony-V1-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib/vpp_hdrmeta_handler_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/vpp_hdrmeta_handler_plugin.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.frameworks.sensorservice-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.sensorservice-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.frameworks.sensorservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.sensorservice@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.frameworks.stats-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.stats-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.frameworks.stats-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.stats-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.audio.common-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common-util.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.audio.common@5.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@5.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.audio.common@6.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@6.0-util.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.audio.common@6.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@6.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.audio.core-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.core-V2-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.audio.core-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.core-impl-mediatek.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.audio.core.sounddose-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.core.sounddose-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.audio.effect-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.effect-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.audio.effect@6.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.effect@6.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.audio@6.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio@6.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.bluetooth-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.bluetooth.audio-V4-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth.audio-V4-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.bluetooth.audio-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth.audio-impl-mediatek.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.bluetooth.audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth.audio@2.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth.audio@2.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.boot-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.boot-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.boot@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.boot@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.boot@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.boot@1.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.camera.common-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.common-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.camera.common-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.common-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.camera.common@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.common@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.camera.device-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.2.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.camera.device@3.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.3.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.4.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.camera.device@3.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.5.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.camera.device@3.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.6.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.camera.metadata-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.metadata-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.camera.provider-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.camera.provider@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.5.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.camera.provider@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.6.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.common-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.common-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.common.fmq-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.common.fmq-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.contexthub-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.contexthub-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.drm-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.gatekeeper-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gatekeeper-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.gnss-V4-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss-V4-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.graphics.allocator-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.allocator-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.allocator@2.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.graphics.allocator@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.allocator@3.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.graphics.allocator@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.allocator@4.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.graphics.bufferqueue@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.bufferqueue@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.graphics.bufferqueue@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.bufferqueue@2.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.graphics.common-V4-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.common-V4-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.graphics.common-V5-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.common-V5-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.graphics.common@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.common@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.graphics.common@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.common@1.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.graphics.common@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.common@1.2.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.graphics.composer3-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer3-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.graphics.mapper@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.mapper@2.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.graphics.mapper@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.mapper@2.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.graphics.mapper@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.mapper@3.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.graphics.mapper@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.mapper@4.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.health-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.health-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.health-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.health-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.ir-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.ir-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.light-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.light-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.light-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.light-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.light@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.light@2.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.media.bufferpool2-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.media.bufferpool2-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.media.bufferpool@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.media.bufferpool@2.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.media.c2-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.media.c2-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.media.c2@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.media.c2@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.media.c2@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.media.c2@1.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.media.c2@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.media.c2@1.2.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.media.omx@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.media.omx@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.media@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.media@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.memtrack-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.memtrack-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.power-V4-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power-V4-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.power-V5-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power-V5-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.power@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.power@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power@1.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.power@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power@1.2.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.radio-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.radio.config-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio.config-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.radio.data-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio.data-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.radio.ims-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio.ims-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.radio.messaging-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio.messaging-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.radio.modem-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio.modem-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.radio.network-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio.network-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.radio.sap-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio.sap-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.radio.sim-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio.sim-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.radio.voice-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio.voice-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.radio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio@1.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.renderscript@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.renderscript@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.security.keymint-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.security.keymint-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.security.keymint-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.security.keymint-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.security.rkp-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.security.rkp-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.security.secureclock-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.security.secureclock-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.security.sharedsecret-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.security.sharedsecret-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.sensors-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.sensors-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.sensors@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.sensors@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.sensors@2.0-ScopedWakelock.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.sensors@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.sensors@2.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.sensors@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.sensors@2.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.soundtrigger3-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.soundtrigger3-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.soundtrigger3-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.soundtrigger3-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.tetheroffload-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.tetheroffload-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.usb-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.usb-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.usb.gadget-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.usb.gadget-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.vibrator-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.vibrator-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.wifi-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.wifi.common-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.common-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.wifi.hostapd-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.hostapd-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hardware.wifi.supplicant-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.supplicant-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hidl.memory.token@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hidl.memory.token@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hidl.memory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hidl.memory@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hidl.safe_union@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hidl.safe_union@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hidl.token@1.0-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hidl.token@1.0-utils.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.hidl.token@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hidl.token@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.media.audio.common.types-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.media.audio.common.types-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.media.audio.common.types-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.media.audio.common.types-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.media.soundtrigger.types-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.media.soundtrigger.types-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.media.soundtrigger.types-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.media.soundtrigger.types-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.system.keystore2-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.system.keystore2-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.system.suspend-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.system.suspend-V1-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.system.suspend@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.system.suspend@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/android.system.wifi.keystore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.system.wifi.keystore@1.0.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/arm.graphics-V5-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V5-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/arm.mali.platform-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.mali.platform-V2-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/chre_atoms_log.so:$(TARGET_COPY_OUT_VENDOR)/lib64/chre_atoms_log.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/chremetrics-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/chremetrics-cpp.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/egl/libMEOW_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_data.so \
@@ -1309,30 +936,18 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/gc5025_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc5025_mipi_raw_IdxMgr.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/gc5025_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc5025_mipi_raw_tuning.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/android.hardware.audio.effect.aidl-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect.aidl-impl-mediatek.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/hw/android.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth.audio@2.1-impl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss-impl-mediatek.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/android.hardware.graphics.allocator-V2-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.allocator-V2-mediatek.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.renderscript@1.0-impl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/android.hardware.soundtrigger3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.soundtrigger3-impl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth.default.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/audio.primary.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6768.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/audio.r_submix.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6768.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.default.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio_policy.stub.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/consumerir.common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.common.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/hwcomposer.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt6768.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/lights.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.mt6768.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/local_time.default.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/mapper.mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mapper.mediatek.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.default.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/hw/sensors.dynamic_sensor_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.dynamic_sensor_hal.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/sensors.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mt6768.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.default.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/thermal_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal_hal.so \
@@ -1348,7 +963,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.nvram-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.nvram-impl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq_aidl-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq_aidl-impl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.videotelephony-impl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/vibrator.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.mt6768.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/hw/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.mali.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/imx230_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx230_mipi_raw_IdxMgr.so \
@@ -1376,9 +990,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libMtkSpeechEnh_swb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh_swb.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNoFpsActor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libRSCpuRef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSCpuRef.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libRSDriver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriver.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libRS_internal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRS_internal.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSQLiteModule_VER_ALL.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libSonyIMX230PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX230PdafLibrary.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libSonyIMX230PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX230PdafLibraryWrapper.so \
@@ -1388,7 +999,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libSonyIMX386PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX386PdafLibraryWrapper.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libSonyIMX519PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX519PdafLibrary.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libSonyIMX519PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX519PdafLibraryWrapper.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/lib_android_keymaster_keymint_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_android_keymaster_keymint_utils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/lib_bsscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bsscore.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_iir.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/lib_power_applist.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_power_applist.so \
@@ -1400,8 +1010,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libacdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libaimemc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaimemc.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libalsautilsv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautilsv2.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapmonitor_vendor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libarm_egl_properties_sysprop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarm_egl_properties_sysprop.so \
@@ -1410,9 +1018,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libasn1c_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_core.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libasn1c_mapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_mapi.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libasn1c_mdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_mdmi.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libaudio_aidl_conversion_common_ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_aidl_conversion_common_ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_param_parser-vnd.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libaudioaidlcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioaidlcommon.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocompensationfilter_vendor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libaudiocompensationfilterc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocompensationfilterc.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libaudiocomponentengine_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocomponentengine_vendor.so \
@@ -1424,18 +1030,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libaudiopolicyconfigxml_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiopolicyconfigxml_mtk_vendor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioprimarydevicehalifclient.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiotoolkit_vendor.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioutils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaurisysdemo.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libavservices_minijail.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libavservices_minijail.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libbcinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbcinfo.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbessound_hd_mtk_vendor.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbinder.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libbinderdebug.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbinderdebug.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libblas.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblas.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblisrc32_vendor.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libbluetooth_audio_session_aidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_aidl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libbluetooth_audio_session_aidl_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_aidl_mtk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_mediatek.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libbluetooth_hw_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_hw_test.so \
@@ -1445,7 +1042,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetoothem_mtk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-vendor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbwc.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcam.chdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.chdr.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcam.feature_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.feature_utils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcam.hal3a.cctsvr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.cctsvr.so \
@@ -1484,58 +1080,32 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcamdrv_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamdrv_isp.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcamdrv_tuning_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamdrv_tuning_mgr.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcamdrv_twin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamdrv_twin.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libcamera_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_metadata.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcameracustom.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.eis.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libcap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcap.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapctrl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcarrierconfig.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libccci_util.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcharon-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcharon-ss.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libchromanr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchromanr.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libclang_rt.ubsan_standalone-aarch64-android.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libclang_rt.ubsan_standalone-aarch64-android.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libcodec2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libcodec2_aidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_aidl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcodec2_fsr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_fsr.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libcodec2_hal_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hal_common.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libcodec2_hidl@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libcodec2_hidl@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl@1.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libcodec2_hidl@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl@1.2.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libcodec2_hidl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl_plugin.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcodec2_mtk_c2store.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_c2store.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcodec2_mtk_vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_vdec.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcodec2_mtk_venc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_venc.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libcodec2_soft_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_common.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libcodec2_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcodec2_vpp_fa_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_fa_plugin.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcodec2_vpp_mi_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_mi_plugin.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcodec2_vpp_qt_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_qt_plugin.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcodec2_vpp_rs_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_rs_plugin.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libcompiler_rt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcompiler_rt.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcomposer_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcomposer_ext.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconnfem.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libcppbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppbor.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libcppbor_external.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppbor_external.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libcppcose_rkp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppcose_rkp.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcrypto-mdapp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcrypto-mdapp.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcrypto.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcurl-md.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcurl-md.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libcurl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcurl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcurl_xcap_md.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcurl_xcap_md.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustom_nvram.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcutils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvsd_mtk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdecrypt.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libdmabufheap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdmabufheap.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpframework.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrm.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libdumpstateutil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdumpstateutil.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdynamiclog.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffecthal.base.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libeffects.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffects.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libeffectsconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffectsconfig.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libexif.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexif.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libexpat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexpat.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.face.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.stereo.provider.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libfeature.vsdof.hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.vsdof.hal.so \
@@ -1548,18 +1118,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libfft_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfft_vendor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfgauge_gm30.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfile_op.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libflatbuffers-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflatbuffers-cpp.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libfmq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfmq.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libforkexecwrap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libforkexecwrap.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libformatter.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libgatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgatekeeper.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libged.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpu_aux.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libgpud.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpud.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpudataproducer.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_extra.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_metadata.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libgralloctypes.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloctypes.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloctypes_mtk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libgz_gp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgz_gp_client.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libgz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgz_uree.so \
@@ -1567,15 +1133,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libh264dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libh264dec_sa.ca7.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libh264dec_sd.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libh264dec_sd.ca7.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libh264dec_se.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libh264dec_se.ca7.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libhardware.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhardware.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhardware_legacy.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libheichal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libheichal.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhevce_sb.ca7.android.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlbase.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libhidlmemory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlmemory.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libhidltransport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidltransport.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libhidparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidparser.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libhwbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwbinder.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwm.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libhydra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhydra.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libicd_decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libicd_decoder.so \
@@ -1584,33 +1143,19 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libimageio_plat_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimageio_plat_drv.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libimageio_plat_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimageio_plat_pipe.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libimgsensorca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsensorca.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_mtk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_ulit.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libipsec_ims_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libipsec_ims_shr.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libispcameraca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libispcameraca.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha-oal_vendor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha_vendor.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libjsoncpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjsoncpp.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libkeymaster_messages.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_messages.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libkeymaster_portable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_portable.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libkeymint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymint.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libkeymint_tool.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymint_tool.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmsetkey.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libkphhelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkphhelper.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libkphproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkphproxy.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libladder.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/liblpcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblpcnr.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/liblzma.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblzma.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libmedia_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmedia_helper.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libmediautils_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmediautils_vendor.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libmeminfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmeminfo.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libmemunreachable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmemunreachable.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libmfllcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfllcore.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libminijail.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminijail.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminiui.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libmipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmipc.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libmmagent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmagent.so \
@@ -1716,19 +1261,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libmtkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkutils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libmvpu_config_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_config_data.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libmvpu_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_wrapper.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libnbaio_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnbaio_mono.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libnetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetutils.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libnl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_sec.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnxp_extamp_intf.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libpcap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpcap.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfctl_vendor.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixelflinger.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpkm.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libpng.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpng.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libpower.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower_timer.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhal.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_cust_base.so \
@@ -1739,60 +1278,33 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libpqsharememory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqsharememory.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libpqtuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqtuning.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libpqxmlparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqxmlparser.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libprocessgroup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprocessgroup.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libprocinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprocinfo.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libprotobuf-cpp-full-21.12.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-21.12.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libprotobuf-cpp-lite-21.12.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-lite-21.12.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libpuresoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpuresoftkeymasterdevice.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libratconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libratconfig.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/librcs_volte_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librcs_volte_core.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librgbwlightsensor.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilutils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librt_extamp_intf.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libsdrparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdrparser.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsfplugin_ccodec_utils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libsilkybrightnesscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsilkybrightnesscore.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libsimaka.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimaka.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimlock.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimmelock.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libsoft_attestation_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoft_attestation_cert.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libspeexresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeexresampler.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libssl-mdapp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssl-mdapp.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libssl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libstagefright_aidl_bufferpool2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_aidl_bufferpool2.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_bufferpool@2.0.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libstagefright_bufferqueue_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_bufferqueue_helper.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_foundation.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstereoinfoaccessor_vsdof.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libstorage_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstorage_otp.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libstrongswan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstrongswan.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libswtcc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswtcc.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libsysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysutils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libteec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteec.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalalgo.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyalsa.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libtinyalsav2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyalsav2.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libtinyxml2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libtranslator_mapi_v3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_mapi_v3.0.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libtranslator_mdmi_v2.8.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_mdmi_v2.8.2.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libtranslator_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_utils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libtrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrm.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libtrusty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrusty.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libui.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libunwindstack.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libunwindstack.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutils.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libutilscallstack.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutilscallstack.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libutinterface_custom_md.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutinterface_custom_md.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libutinterface_md.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutinterface_md.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodec_oal.so \
@@ -1802,26 +1314,17 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libverno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libverno.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libvia-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvia-ril.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libviamipc-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libviamipc-ril.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libvibratorutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvibratorutils.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libvp8dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvp8dec_sa.ca7.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libvp9dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvp9dec_sa.ca7.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu5.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libvtclib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvtclib.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libwifi-system-iface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-system-iface.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libwifical.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifical.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libwifinvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifinvram.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libwifinvramdata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifinvramdata.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifitest.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwo.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libxml2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml2.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/libz.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libz.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediacas/libclearkeycasplugin.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libmockdrmcryptoplugin.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/meta_wifi_data.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/mt6768/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6768/libdpframework.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/mt6768/libmmagent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6768/libmmagent.so \
@@ -1836,40 +1339,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/ov5670_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov5670_mipi_raw_tuning.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/s5k2t7sp_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k2t7sp_mipi_raw_IdxMgr.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/s5k2t7sp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k2t7sp_mipi_raw_tuning.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/server_configurable_flags.so:$(TARGET_COPY_OUT_VENDOR)/lib64/server_configurable_flags.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libaecsw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaecsw.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libaecsw_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaecsw_mtk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libagc1sw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libagc1sw.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libagc1sw_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libagc1sw_mtk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libagc2sw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libagc2sw.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libagc2sw_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libagc2sw_mtk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libbassboostsw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libbassboostsw.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libbundleaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libbundleaidl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libbundlewrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libbundlewrapper.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libdownmix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdownmix.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libdownmixaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdownmixaidl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libdynamicsprocessingaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdynamicsprocessingaidl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdynproc.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libeffectproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libeffectproxy.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libenvreverbsw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libenvreverbsw.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libequalizersw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libequalizersw.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libextensioneffect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libextensioneffect.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libhapticgenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhapticgenerator.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libhapticgeneratoraidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhapticgeneratoraidl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libldnhncr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libldnhncr.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libloudnessenhanceraidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libloudnessenhanceraidl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libnssw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libnssw.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libnssw_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libnssw_mtk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libpreprocessingaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libpreprocessingaidl.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libpreprocessingaidl_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libpreprocessingaidl_mtk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libpresetreverbsw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libpresetreverbsw.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libreverbaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libreverbaidl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libreverbwrapper.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libvirtualizersw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvirtualizersw.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvisualizer.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libvisualizeraidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvisualizeraidl.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/soundfx/libvolumesw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvolumesw.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/vendor.mediatek.framework.mtksf_ext-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.framework.mtksf_ext-V2-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/vendor.mediatek.hardware.aee-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.aee-V1-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/vendor.mediatek.hardware.aee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.aee@1.0.so \
@@ -1910,9 +1384,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkpower-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkpower-V1-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkpower-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkpower-V2-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkpower-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkpower-V3-ndk.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkpower@1.0.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkpower@1.1.so \
-    $(LOCAL_DIR)/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkpower@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkpower@1.2.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkpower_applist-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkpower_applist-V3-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex.assist-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex.assist-V2-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex.atci-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex.atci-V1-ndk.so \
@@ -1942,9 +1413,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_DIR)/proprietary/vendor/lib64/vendor.mediatek.hardware.pq_aidl-V7-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq_aidl-V7-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so \
     $(LOCAL_DIR)/proprietary/vendor/lib64/vpp_hdrmeta_handler_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vpp_hdrmeta_handler_plugin.so \
-    $(LOCAL_DIR)/proprietary/vendor/odm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR)/odm/etc/build.prop \
-    $(LOCAL_DIR)/proprietary/vendor/odm/etc/group:$(TARGET_COPY_OUT_VENDOR)/odm/etc/group \
-    $(LOCAL_DIR)/proprietary/vendor/odm/etc/passwd:$(TARGET_COPY_OUT_VENDOR)/odm/etc/passwd \
     $(LOCAL_DIR)/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
     $(LOCAL_DIR)/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
     $(LOCAL_DIR)/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
